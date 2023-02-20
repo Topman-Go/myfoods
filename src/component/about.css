@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Nunito+Sans&family=Pacifico&family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Nunito+Sans:wght@800&family=Nunito:wght@800&family=Pacifico&family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Nunito+Sans:wght@800&family=Nunito:wght@800&family=Pacifico&family=Poppins:ital,wght@1,200&display=swap');
+
+
+.my-main{
+    /* border: 2px solid red; */
+    height: 100vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about-lefts{
+    width: 45%;
+    height: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    /* margin-right: 1rem; */
+    margin-left: 2rem;
+    /* gap: 5px; */
+    /* padding-left: 15px; */
+
+    /* justify-content: space-around; */
+}
+.them-two{
+    /* border: 2px solid red; */
+    height: 45%;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem;
+}
+.pic{
+    /* border: 2px solid blue; */
+    width: 46%;
+    height: 100%;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+.pic2{
+    /* border: 2px solid blue; */
+    width: 48%;
+    height: 80%;
+    margin-top: 2.7rem;
+    border-radius: 5px;
+    position: relative;
+    top: 6%;
+    /* margin-bottom: 0; */
+}
+.imaaage{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.pic3{
+    /* border: 2px solid blue; */
+    width: 38%;
+    height: 65%;
+    margin-right: 2rem;
+    position: relative;
+    bottom: 17%;
+    border-radius: 5px;
+}
+
+.pic4{
+    /* border: 2px solid blue; */
+    width: 48%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.aabout, .about-right{
+    /* border: 2px solid rgb(14, 235, 80); */
+    width: 45%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 20px;
+    /* margin-bottom: 5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: flex-start;
+    margin-right: 2rem;
+}
+.about-right .new-div{
+    /* border: 2px solid rgb(113, 0, 128); */
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 22%;
+    width: 80%;
+} 
+.about-right .new-div h2{
+    font-family: 'Pacifico', cursive;
+    /* border: 2px solid blue; */
+    /* margin-bottom: 1rem; */
+    color: rgb(243,114,27);
+    margin-top: 0rem;
+    
+}
+/* .about-right div::after{
+    background: #f3721b;
+    background: var(--primary);
+    content: "";
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+} */
+.facofff{
+    font-size: 40px;
+    /* margin-bottom: 1rem; */
+    color: rgb(243,114,27);
+    margin-right: 1rem;
+}
+.about-right .new-div .icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Nunito Sans';
+    /* font-weight: 800; */
+    /* border: 2px solid blue; */
+    /* margin-top: 0px; */
+ }
+ .about-right .new-div .icons h1{
+    font-family: 'Nunito', sans-serif;
+ }
+ .years{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 15%;
+    margin-top: 2rem;
+    
+}
+.years div{
+    border-left: 5px solid black;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 1rem; */
+    text-align: left;
+   
+}
+.para{
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-top: 0.5rem;
+    
+}
+
+.years div h3{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-size: 60px;
+    line-height: 1.2rem;
+    padding: 15px;
+    color: rgb(243,114,27);
+}
+.years div p{
+    font-size: 16px;
+}
+.mybut{
+    
+    margin-top: 2.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    color: #212529;
+    cursor: pointer;
+   
+    font-size: 15px;
+ 
+    padding: 15px 40px 15px 40px;
+    
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .my-main{
+        /* border: 2px solid red; */
+        height: 120%;
+        margin-right: 2rem;
+        margin-left: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 100%;
+    }
+    .about-lefts{
+        width: 95%;
+        height: 95%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        margin: 2rem;
+        margin-left: 0rem;
+        margin-top: 3rem;
+        /* margin-right: 1rem; */
+        /* margin-left: 0rem; */
+        /* gap: 5px; */
+        /* padding-left: 15px; */
+    
+        /* justify-content: space-around; */
+    }
+    .them-two{
+        /* border: 2px solid red; */
+        height: 93%;
+        width: 100%;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        /* margin: 1rem; */
+    }
+    .imaaage{
+        width: 97%;
+        margin-left: 0.5rem;
+    }
+    
+    
+    .aabout, .about-right{
+        /* border: 2px solid rgb(14, 235, 80); */
+        width: 95%;
+        height: 100%;
+        /* padding: 5px; */
+        padding-left: 1px;
+        /* margin-bottom: 5rem; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: flex-start;   */
+        /* align-items: flex-start; */
+        margin-right: 0rem;
+    }
+    .about-right .new-div{
+        /* border: 2px solid rgb(113, 0, 128); */
+        /* cursor: default; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        /* justify-content: flex-start; */
+        /* height: 22%; */
+        width: 80%;
+    }
+
+    .facofff{
+        font-size: 60px;
+        /* margin-bottom: 1rem; */
+        /* color: rgb(243,114,27); */
+        /* margin-right: 1rem; */
+    }
+   
+    .years{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* border: 2px solid red; */
+        /* width: 85%; */
+        /* height: 15%; */
+        /* margin-top: 2rem; */
+        
+    }
+    .years div{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .about-right .new-div .icons h1{
+        /* font-family: 'Nunito', sans-serif; */
+        font-size: 30px;
+     }
+    
+     .mybut{
+    
+        margin-top: 1rem;
+        /* border: 1px solid transparent; */
+        /* border-radius: 0.5rem; */
+        /* color: #212529; */
+        /* cursor: pointer; */
+        width: 85%;
+        /* font-size: 15px; */
+     
+        /* padding: 15px 40px 15px 40px; */
+        
+        
+    }
+    
+}

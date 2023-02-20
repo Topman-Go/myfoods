@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import Services from '../src/component/Services'
+import About from '../src/component/About'
+import Heading from '../src/component/Heading'
+import Food from '../src/component/Food'
+import Ourchef from '../src/component/Ourchef'
+import Combo from '../src/component/Combo'
+import Contact from '../src/component/Contact'
+import Footer from '../src/component/Footer'
+import Mybutin from './component/Mybutin';
+import Listoffood from './component/Listoffood';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Heading />
+        <Food />
+        <Services />
+        <About />
+        <Ourchef />
+        <Combo />
+        <Listoffood />
+        <Contact />
+        <Footer />
+        <Mybutin />
+      
+      </div>
+
+
+    
   );
 }
 
