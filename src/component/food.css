@@ -83,7 +83,7 @@
     }
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
     .food{
       /* background-image: url(../images/nature1.jpg); */
       /* width: '10px'; */
